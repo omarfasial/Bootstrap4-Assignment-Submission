@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler's World</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Traveler's World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinasyonlar">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#turlar">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-8 hero-text">
+                    <h1>Discover Your Dream Vacation</h1>
+                    <p>We offer special travel packages for you to explore the most beautiful places in the world.</p>
+                    <a href="#turlar" class="btn btn-outline-light btn-lg">Explore Our Tours</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Destinations Section -->
+    <section id="destinasyonlar" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title">Popular Destinations</h2>
+                    <p class="section-subtitle">Most preferred vacation regions</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="destination-card">
+                        <img src="https://via.placeholder.com/800x600" alt="Antalya" class="img-fluid">
+                        <div class="destination-content">
+                            <h3>Antalya</h3>
+                            <p>Paradise on the southern coast of Turkey</p>
+                            <a href="#" class="btn btn-sm">More Information</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="destination-card">
+                        <img src="https://via.placeholder.com/800x600" alt="Cappadocia" class="img-fluid">
+                        <div class="destination-content">
+                            <h3>Cappadocia</h3>
+                            <p>Fairy chimneys with unique natural beauty</p>
+                            <a href="#" class="btn btn-sm">More Information</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="destination-card">
+                        <img src="https://via.placeholder.com/800x600" alt="Istanbul" class="img-fluid">
+                        <div class="destination-content">
+                            <h3>Istanbul</h3>
+                            <p>The capital of history and culture connecting two continents</p>
+                            <a href="#" class="btn btn-sm">More Information</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="turlar" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title">Special Tours</h2>
+                    <p class="section-subtitle">Our custom packages for unforgettable memories</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="tour-card">
+                        <div class="tour-thumb">
+                            <img src="https://via.placeholder.com/600x400" alt="Cultural Tour" class="img-fluid">
+                            <div class="tour-price">$399</div>
+                        </div>
+                        <div class="tour-content">
+                            <div class="tour-meta">
+                                <span><i class="far fa-clock"></i> 7 Days</span>
+                                <span><i class="fas fa-user-friends"></i> 20 People</span>
+                            </div>
+                            <h3>Cultural Tour</h3>
+                            <p>Historical beauty tour covering Istanbul, Cappadocia, and Ephesus.</p>
+                            <a href="#" class="btn btn-block">Make Reservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="tour-card">
+                        <div class="tour-thumb">
+                            <img src="https://via.placeholder.com/600x400" alt="Beach Holiday" class="img-fluid">
+                            <div class="tour-price">$459</div>
+                        </div>
+                        <div class="tour-content">
+                            <div class="tour-meta">
+                                <span><i class="far fa-clock"></i> 5 Days</span>
+                                <span><i class="fas fa-user-friends"></i> 15 People</span>
+                            </div>
+                            <h3>Beach Holiday</h3>
+                            <p>Enjoy the sun and sea on the magnificent beaches of Antalya.</p>
+                            <a href="#" class="btn btn-block">Make Reservation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="tour-card">
+                        <div class="tour-thumb">
+                            <img src="https://via.placeholder.com/600x400" alt="Nature Hiking" class="img-fluid">
+                            <div class="tour-price">$279</div>
+                        </div>
+                        <div class="tour-content">
+                            <div class="tour-meta">
+                                <span><i class="far fa-clock"></i> 4 Days</span>
+                                <span><i class="fas fa-user-friends"></i> 12 People</span>
+                            </div>
+                            <h3>Nature Hiking</h3>
+                            <p>An adventure experience in nature on the green plateaus of the Black Sea.</p>
+                            <a href="#" class="btn btn-block">Make Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title">Why Choose Us?</h2>
+                    <p class="section-subtitle">We offer the best for you</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Unique Routes</h3>
+                        <p>Discover unique places beyond the known routes, carefully selected for you.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Expert Guides</h3>
+                        <p>A safe and informative travel with our experienced and professional guides.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <h3>Affordable Prices</h3>
+                        <p>We offer quality travel experiences at prices suitable for every budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="hakkimizda" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://via.placeholder.com/600x400" alt="About Us" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-content">
+                        <h2 class="section-title">About Us</h2>
+                        <p>As Traveler's World, we've been providing unforgettable travel experiences to thousands of our guests for 15 years. Our goal is to take you to the most beautiful places in the world and create the best memories of your life together.</p>
+                        <p>With our experience in the tourism sector and our expert team, we organize safe and comfortable journeys with every detail considered.</p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check"></i> 15 years of experience</li>
+                            <li><i class="fas fa-check"></i> Travel to 50+ countries</li>
+                            <li><i class="fas fa-check"></i> 10,000+ happy customers</li>
+                            <li><i class="fas fa-check"></i> 100% customer satisfaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section class="testimonials py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title">Customer Testimonials</h2>
+                    <p class="section-subtitle">Thoughts from customers who traveled with us</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"We had an incredible experience on the Antalya tour. Our guide was very knowledgeable and everything was perfectly organized."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/100x100" alt="Customer" class="img-fluid rounded-circle">
+                            <div class="author-info">
+                                <h4>Ayse Yilmaz</h4>
+                                <p>Istanbul</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Thank you for the Cappadocia trip! The balloon tour was amazing and your choice of accommodation was great. We will definitely travel with you again."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/100x100" alt="Customer" class="img-fluid rounded-circle">
+                            <div class="author-info">
+                                <h4>Mehmet Ozturk</h4>
+                                <p>Ankara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Our guide on the nature hiking tour was very experienced. It was a safe and fun trip. The landscapes were incredible!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/100x100" alt="Customer" class="img-fluid rounded-circle">
+                            <div class="author-info">
+                                <h4>Zeynep Kaya</h4>
+                                <p>Izmir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Reach out to us for your questions</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Travel Street No:456, Istanbul</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+90 212 456 78 90</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@travelersworld.com</p>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Traveler's World</h5>
+                    <p>We are here for your personalized travel experiences. We turn your dreams into reality.</p>
+                </div>
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#destinasyonlar">Destinations</a></li>
+                        <li><a href="#turlar">Tours</a></li>
+                        <li><a href="#hakkimizda">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5>Destinations</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Antalya</a></li>
+                        <li><a href="#">Cappadocia</a></li>
+                        <li><a href="#">Istanbul</a></li>
+                        <li><a href="#">Black Sea</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <p>To stay updated about our latest campaigns and tours.</p>
+                    <form class="footer-subscribe">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                            <div class="input-group-append">
+                                <button class="btn" type="button">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright">© 2023 Traveler's World. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p class="copyright">Site Creator: <a href="mailto:OmarFaisal.Alrwabdah@my-aolcc.com">Omar Faisal Hussein Alrwabdah</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html> 

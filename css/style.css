@@ -1,0 +1,514 @@
+/* Genel Stiller */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+.section-title {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8bf02;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Hero Bölümü */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero .btn:hover {
+    background-color: #f8bf02;
+    border-color: #f8bf02;
+    color: #222;
+}
+
+/* Destinasyon Kartları */
+.destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.destination-card img {
+    transition: all 0.5s ease;
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);
+}
+
+.destination-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.destination-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.destination-content .btn {
+    background-color: #f8bf02;
+    color: #222;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.destination-content .btn:hover {
+    background-color: #fff;
+}
+
+/* Tur Kartları */
+.tour-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.tour-thumb {
+    position: relative;
+}
+
+.tour-price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f8bf02;
+    color: #222;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.tour-content {
+    padding: 25px;
+}
+
+.tour-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.tour-meta i {
+    margin-right: 5px;
+    color: #f8bf02;
+}
+
+.tour-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tour-content p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tour-content .btn {
+    background-color: #f8bf02;
+    color: #222;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+}
+
+.tour-content .btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Özellik Kutuları */
+.feature-box {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    color: #f8bf02;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Hakkımızda Bölümü */
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.about-list li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.about-list i {
+    color: #f8bf02;
+    margin-right: 10px;
+}
+
+/* Müşteri Yorumları */
+.testimonials {
+    background-color: #f8f9fa;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.testimonial-content {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #666;
+}
+
+.testimonial-content p {
+    position: relative;
+    padding: 0 10px;
+}
+
+.testimonial-content p::before,
+.testimonial-content p::after {
+    content: '"';
+    font-size: 50px;
+    color: #f8bf02;
+    line-height: 0;
+    position: absolute;
+}
+
+.testimonial-content p::before {
+    top: 15px;
+    left: -15px;
+}
+
+.testimonial-content p::after {
+    bottom: -10px;
+    right: -15px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-info h4 {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.author-info p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* İletişim Bölümü */
+.contact-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.info-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info-item i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f8bf02;
+    border-radius: 50%;
+    text-align: center;
+    color: #222;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.info-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    text-align: center;
+    color: #222;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #f8bf02;
+    color: #fff;
+}
+
+/* Form */
+.contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #f8bf02;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.contact-form .btn {
+    background-color: #f8bf02;
+    color: #222;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+}
+
+.contact-form .btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f8bf02;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #f8bf02;
+    padding-left: 5px;
+}
+
+.footer-subscribe .form-control {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.footer-subscribe .btn {
+    background-color: #f8bf02;
+    border: none;
+    color: #222;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 30px 0;
+}
+
+.copyright {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #f8bf02;
+}
+
+/* Medya Sorguları */
+@media (max-width: 991px) {
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .contact-info {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .navbar-brand {
+        font-size: 22px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+} 
